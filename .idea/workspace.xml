@@ -20,13 +20,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2dbb0ebf-e2e4-4790-a1d5-95760af517c9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/design/Adapter/AdaptPatternDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/design/Adapter/AdvancedMediaPlayer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/design/Adapter/AudioPlayer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/design/Adapter/MediaAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/design/Adapter/MediaPlayer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/design/Adapter/MpPlayer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/design/Adapter/VlcPlayer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/design/StrategyPattern/Context.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/design/StrategyPattern/OperationAdd.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/design/StrategyPattern/OperationMultiply.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/design/StrategyPattern/OperationSubstract.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/design/StrategyPattern/Strategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/design/StrategyPattern/StrategyPatternDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -65,6 +64,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="create.test.in.the.same.root" value="true" />
@@ -88,7 +88,7 @@
       <recent name="main.design.BuilderModel" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.AdaptPatternDemo">
+  <component name="RunManager" selected="Application.StrategyPatternDemo">
     <configuration name="AdaptPatternDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.design.Adapter.AdaptPatternDemo" />
       <module name="DesignModel" />
@@ -128,19 +128,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FactoryPatternDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.design.FactoryModel.FactoryPatternDemo" />
-      <module name="DesignModel" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="main.design.FactoryModel.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="PrototypePatternDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.design.PrototypePattern.PrototypePatternDemo" />
       <module name="DesignModel" />
@@ -154,13 +141,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StrategyPatternDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.design.StrategyPattern.StrategyPatternDemo" />
+      <module name="DesignModel" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.design.StrategyPattern.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StrategyPatternDemo" />
         <item itemvalue="Application.AdaptPatternDemo" />
         <item itemvalue="Application.DecoratePatternDemo" />
         <item itemvalue="Application.PrototypePatternDemo" />
         <item itemvalue="Application.BuilderPatternDemo" />
-        <item itemvalue="Application.FactoryPatternDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -200,26 +200,26 @@
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2662" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1610527063757" />
-    <state x="2685" y="226" key="#com.intellij.ide.util.MemberChooser" timestamp="1614667094772">
+    <state x="2685" y="226" key="#com.intellij.ide.util.MemberChooser" timestamp="1614760002533">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="2685" y="226" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1614667094772" />
-    <state width="1877" height="348" key="GridCell.Tab.0.bottom" timestamp="1614245961793">
+    <state x="2685" y="226" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1614760002533" />
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1614760681208">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1614245961793" />
-    <state width="1877" height="348" key="GridCell.Tab.0.center" timestamp="1614245961793">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1614760681208" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1614760681208">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1614245961793" />
-    <state width="1877" height="348" key="GridCell.Tab.0.left" timestamp="1614245961793">
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1614760681208" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1614760681207">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1614245961793" />
-    <state width="1877" height="348" key="GridCell.Tab.0.right" timestamp="1614245961793">
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1614760681207" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1614760681208">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1614245961793" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1614760681208" />
     <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1614245961794">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
