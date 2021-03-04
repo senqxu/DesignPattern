@@ -20,12 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2dbb0ebf-e2e4-4790-a1d5-95760af517c9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/design/StrategyPattern/Context.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/design/StrategyPattern/OperationAdd.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/design/StrategyPattern/OperationMultiply.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/design/StrategyPattern/OperationSubstract.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/design/StrategyPattern/Strategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/design/StrategyPattern/StrategyPatternDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/design/SingletonPattern/Singleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/design/SingletonPattern/SingletonObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/design/SingletonPattern/SingletonPatternDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -88,26 +85,13 @@
       <recent name="main.design.BuilderModel" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.StrategyPatternDemo">
+  <component name="RunManager" selected="Application.SingletonPatternDemo">
     <configuration name="AdaptPatternDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.design.Adapter.AdaptPatternDemo" />
       <module name="DesignModel" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="main.design.Adapter.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BuilderPatternDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.design.BuilderModel.BuilderPatternDemo" />
-      <module name="DesignModel" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="main.design.BuilderModel.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -141,6 +125,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SingletonPatternDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.design.SingletonPattern.SingletonPatternDemo" />
+      <module name="DesignModel" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.design.SingletonPattern.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="StrategyPatternDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.design.StrategyPattern.StrategyPatternDemo" />
       <module name="DesignModel" />
@@ -156,11 +153,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SingletonPatternDemo" />
         <item itemvalue="Application.StrategyPatternDemo" />
         <item itemvalue="Application.AdaptPatternDemo" />
         <item itemvalue="Application.DecoratePatternDemo" />
         <item itemvalue="Application.PrototypePatternDemo" />
-        <item itemvalue="Application.BuilderPatternDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -204,22 +201,22 @@
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2685" y="226" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1614760002533" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1614760681208">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1614764480663">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1614760681208" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1614760681208">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1614764480663" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1614764480663">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1614760681208" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1614760681207">
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1614764480663" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1614764480663">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1614760681207" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1614760681208">
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1614764480663" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1614764480663">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1614760681208" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1614764480663" />
     <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1614245961794">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
